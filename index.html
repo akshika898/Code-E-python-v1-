@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>Code e python</title>
+  <link rel="stylesheet" href="css/style.min.1544716853.css" media="all">
+  <link rel="stylesheet" href="css/pagescroll.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="ms-header navbar-white">
+    <nav class="ms-nav">
+      <!-- <div class="ms-logo">
+        <a href="index.html" data-type="page-transition">
+          <div class="logo-dark"><img src="logo-dark.svg" alt="logo image"></div>
+          <div class="logo-light current"><img src="logo-light.svg" alt="logo image"></div>
+        </a>
+      </div> -->
+      <button class="hamburger" type="button" data-toggle="navigation">
+        <span class="hamburger-box">
+          <span class="hamburger-label">menu</span>
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <div class="height-full-viewport">
+        <ul class="ms-navbar">
+          <li class="nav-item">
+            <a href="#index" data-type="page-transition">
+              <span class="ms-btn">home</span>
+              <span class="nav-item__label">Back to home page</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#albums" data-type="page-transition">
+              <span class="ms-btn">albums</span>
+              <span class="nav-item__label">View all our works</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#gallery" data-type="page-transition">
+              <span class="ms-btn">gallery</span>
+              <span class="nav-item__label">Interactively disintermediate</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="blog.html" data-type="page-transition">
+              <span class="ms-btn">blog</span>
+              <span class="nav-item__label">Discover fascinating stories</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="about.html" data-type="page-transition">
+              <span class="ms-btn">about</span>
+              <span class="nav-item__label">Learn more about the author</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="contact.html" data-type="page-transition">
+              <span class="ms-btn">contact</span>
+              <span class="nav-item__label">Get in touch and find us</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="frame-container">
+    <div class="scroll-container" direction="horizontal">
+      <div class="frame-container">
+        <div class="frame" id="index">
+          <div class="scroll-container" direction="vertical">
+            <div class="frame-container">
+              <div class="frame" style="background-color:rgb(255, 174, 0)">
+                <h1>horizontal-vertical</h1>
+                <script>
+                  location.hash = "#home";
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="frame" id="albums">
+          <div class="scroll-container" direction="vertical">
+            <div class="frame-container">
+              <div class="frame" style="background-color: #18a8b8">
+                <h1>vertical-1</h1>
+              </div>
+              <div class="frame" style="background-color: #94d55f">
+                <h1>vertical-2</h1>
+              </div>
+              <div class="frame" style="background-color: #FF7260">
+                <h1>vertical-3</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="frame" id="gallery" style="background-color: #1f9385">
+          <h1>horizontal</h1>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="js/pagescroll.js"></script>
+  <script type="text/javascript">
+    var pageScroll = new nuPageScroll();
+    pageScroll.init();
+  </script>
+  <script src="js/vendor.min.1544557065.js"></script>
+  <script src="js/app.min.1544557065.js"></script>
+  <script type="text/javascript" src='assets/js/jquery-3.2.1.min.js'></script>
+  <script type="text/javascript" src='assets/js/plugins.min.js'></script>
+  <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
